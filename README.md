@@ -12,6 +12,7 @@ Step 3: For each measurement, predict the next state using kf.predict().<BR>
 Step 4: Update the state estimate based on the measurement using kf.update().<BR>
 Step 5: Store the estimated state in a list.<BR>
 Step 6: Plot the true and estimated positions.<BR>
+
 <H3>Program:</H3>
 
 #Kalman Filter Constructor
@@ -71,7 +72,9 @@ plt.legend()
 plt.show()
 ```
 <H3>Output:</H3>
-![314508445-98964738-ef54-4b80-9788-e60de25a2ffe](https://github.com/Shaik-sameer-AIML/Ex-5--AAI/assets/93427186/f1cc49fe-f7cb-4c8a-8712-07d752c1e11f)
+
+![314508445-98964738-ef54-4b80-9788-e60de25a2ffe](https://github.com/Shaik-sameer-AIML/Ex-5--AAI/assets/93427186/fed3d062-1f80-417e-83fb-89363ca6644a)
+
 
 <H3>Results:</H3>
 Thus, Kalman filter is implemented to predict the next position and   velocity in Python
